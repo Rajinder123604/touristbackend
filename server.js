@@ -11,7 +11,7 @@ app.use(cors());
 app.use(express.json());
 
 // 🔥 MongoDB CONNECT
-mongoose.connect("mongodb://127.0.0.1:27017/touristDB")
+mongoose.connect("mongodb+srv://rajinderchoudhary5075_db_user:gauraj%4007@cluster0.xe3oedg.mongodb.net/touristDB")
 .then(() => console.log("✅ MongoDB Connected"))
 .catch(err => console.log("❌ DB Error:", err));
 
